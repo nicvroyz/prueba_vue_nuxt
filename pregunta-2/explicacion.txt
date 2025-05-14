@@ -1,0 +1,1 @@
+Este script lee un archivo JSON local llamado data.json, agrega un campo "lastUpdated" con la fecha actual y lo guarda nuevamente.

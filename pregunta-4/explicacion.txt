@@ -1,0 +1,1 @@
+Para hacer que la grilla se adapte a diferentes tamaños de pantalla, usamos media queries en SCSS, que luego se transforman en CSS. En pantallas de escritorio, mostramos 3 columnas, y en pantallas como dispositivos móviles, la grilla se organiza en una sola columna con tres filas.

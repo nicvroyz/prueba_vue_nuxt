@@ -1,0 +1,18 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);  /* Tres columnas por defecto */
+  gap: 1rem;
+
+  div {
+    background: #000;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+  }
+
+  /* En pantallas movil cambia a una sola columna */
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;  
+  }
+}
+

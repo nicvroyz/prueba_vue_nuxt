@@ -1,0 +1,14 @@
+ACF (Advanced Custom Fields) es un plugin de WordPress que permite añadir campos personalizados.
+
+Desde WordPress Headless (v6+), puedes exponer campos ACF en la REST API activando el soporte desde el plugin.
+
+Para consumir en Nuxt:
+
+1. WordPress devuelve algo como:
+{
+  "acf": {
+    "campo_personalizado": "valor"
+  }
+}
+
+2. En Nuxt usamos asyncData() para obtener los datos:
