@@ -1,0 +1,19 @@
+Usamos GitFlow para separar el desarrollo del código en ramas:
+
+- main: producción
+- develop: integración
+- feature/nueva-funcionalidad: nuevas características
+
+Pasos:
+
+1. Crear rama feature:
+   git checkout develop
+   git checkout -b feature/nueva-funcionalidad
+
+2. Subirla al remoto:
+   git push -u origin feature/nueva-funcionalidad
+
+3. Hacer merge a develop:
+   git checkout develop
+   git merge feature/nueva-funcionalidad
+   git push origin develop
