@@ -10,4 +10,4 @@ Cada pregunta ha sido desarrollada por separado y se encuentra organizada en su 
 - **Pregunta 2**: Script Node.js que modifica un archivo JSON local agregando la fecha actual.
 - **Pregunta 3**: Consumo de campos ACF desde WordPress Headless usando REST API en Nuxt.
 - **Pregunta 4**: SCSS para grilla responsive cumpliendo estándar WCAG AA.
-- **Pregunta 5**: Flujo de trabajo con Git (ramas main, develop y feature), explicado paso a paso.
+- **Pregunta 5**: Flujo de trabajo con Git con ramas, explicando sus pasos.
